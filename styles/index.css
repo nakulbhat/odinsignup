@@ -81,9 +81,9 @@ input{
     box-shadow: none;
     background-color: rgba(0, 0, 0, 0.23);
     text-align: center;
-    height: 2rem;
+
     width: 100%;
-    heiaght: clamp(15px, 2 rem);
+    height: clamp(15px, 2 rem, 3rem);
 }
 .formelement{
     display: block;
