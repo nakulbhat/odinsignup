@@ -1,0 +1,123 @@
+/*importing fonts from googlefonts*/
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500&family=Lora&family=Martian+Mono&family=Pixelify+Sans&family=Playfair+Display:ital,wght@0,400;1,600&family=Sacramento&display=swap');
+:root{
+    margin: 0px;
+    padding: 0px;
+    font-family: Gabarito;
+    --accent: #7D80AD;
+}
+
+ .hero{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    height: 100vh;
+}
+.logobg{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.544);
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:  Lora;
+    font-size: 1.5rem;
+    height: 100vh;
+}
+.imghalf{
+    background-image: url('/sources/bgimg.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+div .logobg img{
+    max-width: 90%;
+    max-height: 80%;
+}
+div .logobg p{
+    z-index: 2;
+    color: white;
+    font-family: Pixelify Sans;
+width: 80%;
+font-size: 4rem;
+}
+
+
+
+
+p.herotitle{
+    font-family: Playfair Display;
+    font-size: 6rem;
+    text-align: center;
+    color: var(--accent);
+    margin: 40px;
+
+}
+.abouttext{
+    margin-top: 2.5rem;
+    font-family: Gabarito;
+    font-size: 2rem;
+}
+.formhalf{
+    padding: 3rem;
+}
+label{
+    font-family: Martian Mono;
+    letter-spacing: 0.5rem;
+font-size: 1rem;
+margin-bottom: 0px;
+font-size: 1.5rem;
+}
+input{
+    margin-top: 0px;
+    size: auto;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 0px;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0.23);
+    text-align: center;
+    height: 2rem;
+    width: 100%;
+    heiaght: clamp(15px, 2 rem);
+}
+.formelement{
+    display: block;
+    margin-top: 2rem;
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 0px;
+    width: 25%;
+    text-align: center;
+    margin-top: 2rem;
+}
+fieldset button{
+    margin-top: 2rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px;
+    background-color: var(--accent);
+    border-radius: 10px;
+}
+.formhalf .logintext{
+    font-family: Gabarito;
+    font-size: 1.75rem;
+}
+.login{
+    color: var(--accent);
+
+}
+
