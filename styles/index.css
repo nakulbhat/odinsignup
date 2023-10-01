@@ -30,7 +30,7 @@ body{
     height: 100vh;
 }
 .imghalf{
-    background-image: url('odinsignup/sources/bgimg.jpg');
+    background-image: url('bgimg.jpg');
     background-size: cover;
     z-index: -1;
 }
