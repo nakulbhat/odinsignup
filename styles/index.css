@@ -30,7 +30,7 @@ body{
     height: 100vh;
 }
 .imghalf{
-    background-image: url('/sources/bgimg.jpg');
+    background-image: url('sources/bgimg.jpg');
     background-size: cover;
     z-index: -1;
 }
